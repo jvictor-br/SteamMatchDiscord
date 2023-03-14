@@ -3,6 +3,10 @@
 
 Um bot do Discord para encontrar jogos em comum entre players
 
+## Autores
+
+- [@jvictor-br](https://github.com/jvictor-br/)
+- [@neomedeiros](https://github.com/neomedeiros)
 
 [![MIT License](https://camo.githubusercontent.com/3dbcfa4997505c80ef928681b291d33ecfac2dabf563eb742bb3e269a5af909c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496c65726961796f2f6d61726b646f776e2d6261646765733f7374796c653d666f722d7468652d6261646765)](https://choosealicense.com/licenses/mit/)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)]()
