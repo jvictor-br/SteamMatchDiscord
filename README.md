@@ -50,6 +50,62 @@ Um bot do Discord para encontrar jogos em comum entre players
 
 
 
+## Comandos no discord
+
+#### Match entre usuarios do mesmo canal de voz
+
+```
+  /match
+```
+#### Menciona todos que estão no mesmo canal de voz  de quem chamou
+
+```
+  /all
+```
+#### Sobre o bot
+
+```
+  /sobre
+```
+
+
+#### Sorteia jogo entre lista de jogos encontrados em comum
+```
+/sort CodigoDoMatch
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `CodigoDoMatch` | `Numero` | **Obrigatório**. Código que foi gerado anteriormente com o comando `match`|
+
+## Comandos ADMs
+#### * Obs: Comandos visiveis apenas para usuarios  que tem permissão para `Expulsar membros` e `Banir membros`
+#### Vincular usuario do discord com conta Steam usando id64
+```
+/registrar64 @player id64
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `@player` | `Mencionar usuario` | **Obrigatório**. Usuario discord que será vinculado |
+| `id64` | `Numero` | **Obrigatório**. Id64 do usuario na Steam|
+
+#### Vincular usuario do discord com conta Steam usando link do perfil ou nickname
+```
+/registrarlink @player link
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `@player` | `Mencionar usuario` | **Obrigatório**. Usuario discord que será vinculado |
+| `link` | `String` | **Obrigatório**. Link do perfil Steam  ou nickname|
+
+#### Atualizar jogos do Usuario
+```
+/vincgames @player force
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `@player` | `Mencionar usuario` | **Obrigatório**. Usuario discord que será vinculado |
+| `force` | `Booleano` | **Opcional**. Ignorar tempo de espera, padrão é `false`|
+
 ## Rodando localmente
 
 Clone o projeto
